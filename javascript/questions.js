@@ -1,8 +1,8 @@
 (function(){
-    const titleQuestions = [...document.querySelectorAll('.questions__title')];
-    console.log(titleQuestions)
+    const tituloQuestions = [...document.querySelectorAll('.questions__titulo')];
+    console.log(tituloQuestions)
 
-    titleQuestions.forEach(question =>{
+    tituloQuestions.forEach(question =>{
         question.addEventListener('click', ()=>{
             let height = 0;
             let answer = question.nextElementSibling;

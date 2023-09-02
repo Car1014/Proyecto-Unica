@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/Producto.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <title>Crear Producto</title>
+
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="nav contenedor">
+            <div class="nav__logo">
+                <h2 class="nav__titulo">Tecnología.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="./index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Productos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Tus compras</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./imagenes/cerrar.svg" class="nav__cerrar">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./imagenes/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+    <div>
+        <form class="formulario">
+            <fieldset>
+                <legend>Crear Producto</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre del Producto</label>
+                        <input type="text" placeholder="Producto">
+                    </div>
+                    <div class="campo">
+                        <label>Descripción</label>
+                        <textarea class="input-text" placeholder="Características del Producto"></textarea>
+                    </div>
+                    <div class="campo">
+                        <label>Precio</label>
+                        <input type="number" placeholder="$$$$">
+                    </div>
+                    <div class="campo">
+                        <label>Número de elementos disponibles</label>
+                        <input type="number">
+                    </div>
+                </div> <!--.contenedor-campos-->
+    
+                <div>
+                    <input class="boton-enviar" 
+                    type="submit" value="Enviar">
+                </div>
+    
+            </fieldset>
+    
+        </form> 
+    </div>
+</body>
+</html>
