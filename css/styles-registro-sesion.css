@@ -5,7 +5,7 @@
 --crema: #F5EFE7;
 --beige: #D8C4B6;
 --azul: #4F709C;
---azulrey: #0079FF;
+--azulx:#0079FF;
 
 }
 
@@ -83,7 +83,7 @@ h1,h2,h3{
     height: 70%;
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../imagenes/imagenPrincipal.jpg');
     background-size: cover;
-
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
 
@@ -270,7 +270,7 @@ h1,h2,h3{
 
 .boton-enviar{
     
-    background-color: #F8DE22;
+    background-color: var(--azulx);
     caret-color: white;
     padding: 1rem 3rem;
     margin-top: 1rem;
