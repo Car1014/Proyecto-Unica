@@ -294,6 +294,12 @@ body {
     pointer-events: unset;
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
+    background-image: url(../imagenes/SobreN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 2rem;
+    position: relative;
 }
 
 .prod__img{
@@ -306,6 +312,7 @@ body {
 
 .prod__texts{
     max-width: 700px;
+    color: #fff;
 }
 
 .prod__course{
