@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tiendaProductos.css">
+    <link rel="preload" href="css/tiendaProductos.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <title>Tienda productos</title>
+</head>
+<body>
+
+    <header class="hero">
+        
+        <nav class="nav contenedor">
+            <div class="nav__logo">
+                <h2 class="nav__titulo">M.C.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/tiendaProductos.html" class="nav__links">Productos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/carrito.html" class="nav__links">Tus compras</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/iniciosesion.html?" class="nav__links">Iniciar sesion</a>
+                </li>
+
+                <li class="nav_items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/registro.html" class="nav__links">Crear cuenta</a>
+                </li>
+
+                <li class="nav__items">
+                    <a href="file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/administrador.html" class="nav__links">Administrador</a>
+                </li>
+                <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg> </div>
+            </ul>
+
+            <div class="nav__menu">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                    <path d="M 15.011719 2 C 10.808594 1.960938 7.679688 3.632813 5.703125 5.289063 C 4.71875 6.113281 4.011719 6.933594 3.566406 7.570313 C 3.34375 7.886719 3.1875 8.144531 3.078125 8.410156 C 3.019531 8.542969 2.941406 8.625 2.949219 8.988281 C 2.953125 9.167969 3.011719 9.578125 3.414063 9.839844 C 3.820313 10.101563 4.203125 9.996094 4.371094 9.929688 C 6.617188 9.027344 8.191406 9.382813 9.34375 10.265625 C 10.492188 11.148438 11.222656 12.6875 11.3125 14.296875 C 11.375 15.394531 11.261719 16.125 10.777344 17.101563 C 10.292969 18.078125 9.378906 19.296875 7.835938 21.066406 L 7.839844 21.066406 C 5.414063 23.851563 4.230469 25.53125 3.40625 27.433594 C 1.679688 31.414063 1.683594 35.960938 3.460938 39.691406 L 3.460938 39.695313 C 5.914063 44.855469 9.828125 47.792969 15.96875 48 L 38 48 L 38 47 C 38 45.972656 37.523438 45.089844 36.890625 44.519531 C 36.253906 43.953125 35.5 43.632813 34.785156 43.417969 C 34.328125 43.28125 34.292969 43.34375 33.890625 43.28125 C 34.449219 42.527344 35.074219 41.566406 35.457031 40.285156 C 35.929688 38.707031 36.011719 36.75 35.238281 34.589844 C 36 34.851563 36.878906 35 38 35 C 39.609375 35 40.550781 34.703125 41.402344 34.460938 C 42.25 34.21875 43.082031 34 45 34 L 45.910156 34 L 45.996094 33.09375 C 45.996094 33.09375 46.027344 32.410156 45.664063 31.769531 C 45.300781 31.128906 44.554688 30.464844 43.316406 30.050781 C 41.660156 29.5 40.457031 29.484375 39.449219 28.980469 C 38.84375 28.679688 38.210938 28.183594 37.488281 27.222656 C 40.105469 28.015625 42.859375 28 45 28 C 45.582031 28 46.109375 27.644531 46.378906 27.285156 C 46.648438 26.929688 46.765625 26.566406 46.84375 26.242188 C 47.007813 25.589844 47 25 47 25 L 47 24.996094 C 46.976563 20.246094 44.171875 16.046875 39.863281 14.34375 C 39.703125 13.308594 39.289063 12.382813 38.832031 11.695313 C 38.273438 10.859375 37.707031 10.292969 37.707031 10.292969 L 37.027344 9.609375 L 36.320313 10.265625 C 36.320313 10.265625 33.71875 12.609375 34 16.011719 L 34 16.585938 L 33.40625 17.175781 C 31.375 18.199219 28.445313 19.808594 25.898438 20.917969 L 25.875 20.929688 L 20.359375 23.691406 C 20.433594 23.628906 20.488281 23.542969 20.558594 23.480469 C 21.910156 22.25 23.101563 21.3125 23.707031 20.707031 C 29.1875 15.226563 26.941406 6.261719 20.4375 3.101563 C 18.96875 2.386719 17.246094 2 16 2 C 15.867188 2 15.519531 2.003906 15.011719 2 Z M 14.988281 4 C 15.519531 4.003906 15.9375 4 16 4 C 16.753906 4 18.4375 4.351563 19.5625 4.898438 C 24.898438 7.492188 26.8125 14.773438 22.292969 19.292969 C 21.929688 19.65625 20.617188 20.722656 19.214844 22 C 17.808594 23.277344 16.253906 24.816406 15.167969 26.445313 L 14.515625 27.425781 C 11.753906 30.179688 10.695313 33.492188 10.28125 35.675781 C 10.140625 36.277344 10.054688 36.902344 10.023438 37.542969 C 10.003906 37.820313 10 38 10 38 C 10 38.039063 10 38.074219 10.003906 38.113281 C 10.039063 41.203125 11.484375 43.960938 13.722656 45.773438 C 9.605469 45.085938 7.179688 42.859375 5.265625 38.835938 C 3.765625 35.675781 3.738281 31.691406 5.242188 28.226563 C 5.960938 26.566406 6.96875 25.109375 9.347656 22.378906 C 10.925781 20.566406 11.941406 19.253906 12.566406 17.992188 C 13.195313 16.730469 13.382813 15.507813 13.308594 14.1875 C 13.1875 12.0625 12.261719 9.980469 10.5625 8.679688 C 9.421875 7.804688 7.867188 7.5625 6.183594 7.675781 C 6.464844 7.378906 6.605469 7.140625 6.988281 6.820313 C 8.679688 5.402344 11.320313 3.96875 14.988281 4 Z M 37.011719 12.609375 C 37.085938 12.710938 37.089844 12.6875 37.167969 12.804688 C 37.609375 13.46875 38 14.332031 38 15 L 38 15.722656 L 38.6875 15.949219 C 42.488281 17.203125 44.980469 20.839844 45 25.003906 C 45 25.011719 44.992188 25.414063 44.90625 25.757813 C 44.875 25.878906 44.84375 25.933594 44.8125 25.988281 C 41.859375 25.988281 38.207031 25.902344 35.605469 24.195313 C 35.433594 24.066406 35.230469 23.992188 35.015625 23.988281 C 34.941406 23.988281 34.863281 23.996094 34.792969 24.011719 C 34.730469 24.023438 34.667969 24.042969 34.609375 24.066406 C 34.59375 24.070313 34.582031 24.078125 34.566406 24.082031 C 34.554688 24.089844 34.539063 24.097656 34.527344 24.105469 C 34.503906 24.117188 34.476563 24.132813 34.453125 24.148438 C 34.449219 24.148438 34.449219 24.152344 34.445313 24.152344 C 34.21875 24.300781 34.0625 24.53125 34.007813 24.796875 C 33.953125 25.0625 34.011719 25.335938 34.164063 25.558594 C 35.691406 28.578125 37.082031 30.035156 38.550781 30.769531 C 40.042969 31.515625 41.339844 31.5 42.683594 31.949219 C 43.003906 32.054688 42.957031 32.132813 43.132813 32.242188 C 42.367188 32.347656 41.34375 32.398438 40.847656 32.539063 C 39.949219 32.796875 39.390625 33 38 33 C 35.566406 33 35.203125 32.609375 33.660156 31.25 C 33.535156 31.132813 33.382813 31.046875 33.21875 31.003906 C 32.777344 30.4375 32.28125 29.867188 31.707031 29.292969 C 31.707031 29.292969 30.566406 28.164063 28.449219 27.105469 C 28.296875 27.027344 28.132813 26.988281 27.964844 26.996094 C 27.503906 27.003906 27.109375 27.332031 27.011719 27.78125 C 26.914063 28.234375 27.136719 28.695313 27.550781 28.894531 C 29.433594 29.835938 30.292969 30.707031 30.292969 30.707031 C 34.101563 34.515625 34.203125 37.515625 33.542969 39.714844 C 32.882813 41.910156 31.347656 43.238281 31.347656 43.238281 L 29.296875 45 L 32 45 C 32 45 33.136719 45.011719 34.214844 45.332031 C 34.742188 45.492188 35.222656 45.730469 35.53125 46 L 25.972656 46 C 28.410156 44.175781 30 41.269531 30 38 C 30 32.488281 25.511719 28 20 28 C 18.515625 28 17.109375 28.335938 15.84375 28.917969 C 16.578125 28.171875 17.445313 27.46875 18.496094 26.871094 C 18.503906 26.863281 18.515625 26.859375 18.523438 26.851563 L 26.699219 22.75 L 26.746094 22.730469 C 29.46875 21.539063 32.496094 19.871094 34.449219 18.894531 L 34.59375 18.824219 L 36 17.414063 L 36 15.953125 L 35.996094 15.90625 C 35.851563 14.421875 36.46875 13.347656 37.011719 12.609375 Z M 20 30 C 24.429688 30 28 33.570313 28 38 C 28 42.429688 24.429688 46 20 46 C 15.570313 46 12 42.429688 12 38 C 12 37.859375 12.015625 37.722656 12.019531 37.582031 C 12.042969 37.28125 12.105469 36.800781 12.203125 36.230469 C 13.003906 32.65625 16.179688 30 20 30 Z M 20 35 C 18.34375 35 17 36.34375 17 38 C 17 39.65625 18.34375 41 20 41 C 21.65625 41 23 39.65625 23 38 C 23 36.34375 21.65625 35 20 35 Z"></path>
+                </svg>
+            </div>
+        </nav>
+
+        
+    </header>
+
+    <div class="buscador">
+        <form>
+            <label for="busqueda"></label>
+            <input type="search" id="busqueda" name="busqueda" placeholder="Escribe tu búsqueda aquí">
+            <input type="submit" value="Buscar">
+            
+        </form>
+    </div>
+
+
+
+    <main class="contenedor-productos sombra">
+
+        <div class="listar">
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono (2).jpeg" alt="" width="250" height="200">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+    
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono3.jpeg" alt="" width="200" height="250">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/audifonos.jpeg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Audifonos </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono.jpeg" alt="" width="150" height="150">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/tablet.jpg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Tablet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono (2).jpeg" alt="" width="250" height="200">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+    
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono3.jpeg" alt="" width="200" height="250">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/audifonos.jpeg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Audifonos </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/telefono.jpeg" alt="" width="150" height="150">
+                </div>
+                <div class="text">
+                    <h3>celular </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="celda">
+                <div class="imagenes">
+                    <img src="../tiendaonline/img/tablet.jpg" alt="" width="250" height="250">
+                </div>
+                <div class="text">
+                    <h3>Tablet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, blan</p>
+                    <p><b>Marca:</b>samsung</p>
+                    <p><b>Color:</b>blanco</p>
+                    <p><b>Memoria:</b>128gb</p>
+                    <p><b>Sistema operativo</b>android</p>
+                    <input type="submit" name="boton1" value="no quiero ver este producto">
+                    <input type="submit" name="boton2" value="Agregar al carrito">
+                    <input type="submit" name="boton3" value="ver producto">
+    
+                </div>
+            </div>
+    
+            <div class="pagar">
+                <input type="submit" name="boton1" value="volver al principio" id="boton_regreso">
+            </div>
+    
+        </div>
+        </main>
+
+
+
+
+
+    <footer class="footer">
+        <section class="footer__contenedor contenedor">
+            <nav class="nav nav--footer">
+                <h2 class="footer__titulo">IronTec</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Productos</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Tus compras</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete</h2>
+                <div class="footer__inputs">
+                  
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy contenedor">
+            <div class="footer__social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 19 22 12 13 5 13 19"></polygon><polygon points="2 19 11 12 2 5 2 19"></polygon></svg>
+            
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy;</h3>
+        </section>
+    </footer>
+    
+
+
+    <script>
+        // Obtén el elemento de entrada y agrega un controlador de eventos clic
+        var botonRedireccion = document.getElementById("boton_regreso");
+        botonRedireccion.addEventListener("click", function() {
+            // Redirige al usuario a la página deseada
+            window.location.href = "file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/tiendaProductos.html";
+        });
+    </script>
+
+
+</body>
+</html>
