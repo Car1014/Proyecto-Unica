@@ -32,5 +32,5 @@ var botonRedireccion = document.getElementById("boton1");
  var botonRedireccion = document.getElementById("boton-compra");
  botonRedireccion.addEventListener("click", function() {
      // Redirige al usuario a la página deseada
-     window.location.href = "./metodo-pago.html";
+     window.location.href = "file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/metodo-pago.html?";
  });
