@@ -27,3 +27,10 @@ var botonRedireccion = document.getElementById("boton1");
      // Redirige al usuario a la página deseada
      alert("Producto eleminidado")
  });
+
+
+ var botonRedireccion = document.getElementById("boton-compra");
+ botonRedireccion.addEventListener("click", function() {
+     // Redirige al usuario a la página deseada
+     window.location.href = "file:///c%3A/Users/Usuario/OneDrive/Documentos/proyectoshtml/Proyecto-Unica-main/metodo-pago.html?";
+ });
