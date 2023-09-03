@@ -157,20 +157,22 @@ h1,h2,h3{
 
 
 .caja{
-    background-color:#dddbdb;
-    width: 30%;
+    background-color:#1D293F;
+    width: 40%;
     margin: auto;
     padding: 2rem;
     border-radius: 2rem;
     border: 2px solid black;
     margin-top: 10rem;
     margin-bottom: 10rem;
+    width: 55rem;
     
     
 }
 .caja h2{
     text-align: left;
-    padding-left: 8rem;
+    padding-left: 4rem;
+    color: #fff;
 }
 
 
