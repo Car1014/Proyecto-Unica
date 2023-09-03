@@ -172,7 +172,12 @@ h1,h2,h3{
 
 
 
-
+.nav__link svg{
+    background-color: #e7eaeb;
+    border-radius: 2rem;
+    
+   
+  }
 
 
 
@@ -254,14 +259,18 @@ box-shadow: -16px -2px 96px 0px rgba(0,0,0,0.75);
 }
 
 .pagar input{
-    width: 50%;
+    width: 30%;
     font-size: 1.3rem;
     font-weight: bolder;
+    height: 3rem;
+    
+
 }
 
 
 .pagar{
     padding-top: 3rem;
+    border-radius: 5rem;
 }
 
 

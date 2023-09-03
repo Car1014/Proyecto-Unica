@@ -399,6 +399,17 @@ body {
     margin-bottom: 30px;
 }
 
+
+
+.nav__link svg{
+    background-color: #e7eaeb;
+    border-radius: 2rem;
+    
+   
+  }
+
+
+
 /* Footer */
 
 .footer{
